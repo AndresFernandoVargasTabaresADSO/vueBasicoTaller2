@@ -1,0 +1,138 @@
+#app {
+    margin: 20px auto;
+    max-width: 600px;
+    font-family: sans-serif;
+  }
+  
+  .cont {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .input_one {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .elemento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #a {
+    width: 60px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="button"] {
+    margin-right: 10px;
+  }
+  
+  button:nth-of-type(1) {
+    margin-right: 10px;
+  }
+  
+  button:last-of-type {
+    margin-left: auto;
+  }
+
+  .tables {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tables td, .tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  .elemento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .f {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .g {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .g:hover {
+    background-color: #0062cc;
+  }
+  
+  .j, .k {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .j:hover, .k:hover {
+    background-color: #1e7e34;
+  }
